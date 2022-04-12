@@ -10,7 +10,6 @@ alias dbtc="dbt compile"
 alias dbtfresh="dbt clean" #so fresh and so clean clean
 
 # useful aliases for tools I use often when working on dbt
-alias jparser='open -a "Google Chrome" https://j2live.ttl255.com/'
 alias ychecker='open -a "Google Chrome" https://yamlchecker.com/'
 alias dbtdocs='open -a "Google Chrome" https://docs.getdbt.com/docs/introduction'
 

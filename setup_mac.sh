@@ -8,6 +8,10 @@ setopt interactivecomments
 echo "Installing Homebrew..."
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
+# Install poetry
+echo "Installing Poetry..."
+/bin/bash -c "$(curl -sSL https://raw.githubusercontent.com/python-poetry/poetry/master/get-poetry.py | python -)"
+
 # Install git to get the brewfile
 brew install git
 
